@@ -1,0 +1,4 @@
+Haos Redro library of KiCad PCB footprints
+==========================================
+
+This is a library of PCB footprints that are required for Haos Redro hardware designs but were absent from the official KiCad libraries at the time of PCB artwork creation. These parts may have been added to the official libararies since then and if so, they should be used instead of the footprints in this library.
