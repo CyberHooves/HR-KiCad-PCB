@@ -1,0 +1,200 @@
+(footprint "HS-FICSHER-SK499-85"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 0.5 0)
+		(layer "F.SilkS")
+		(uuid "b3045f84-ccdf-4a0e-8310-efb9d10ba8bf")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "HS-FICSHER-SK499-85"
+		(at 0 -0.5 0)
+		(layer "F.Fab")
+		(uuid "8920b9a7-e631-47c5-8933-c8c20995cc3c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "091203ff-85e3-4122-8450-986132fee274")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ca65f630-06ea-4725-8895-b180b43da0cb")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "665b12ec-d749-4fd7-9247-f32d2f30c14b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -42.5 -25.35)
+		(end 42.5 -25.35)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "39e42d84-c97f-4e89-a4f5-66034efd741c")
+	)
+	(fp_line
+		(start -42.5 25.35)
+		(end -42.5 -25.35)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0e176130-b712-4696-ad93-0c4cfa1ccbff")
+	)
+	(fp_line
+		(start 42.5 -25.35)
+		(end 42.5 25.35)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5ce040be-03a6-4d32-a9f6-4a0154053a27")
+	)
+	(fp_line
+		(start 42.5 25.35)
+		(end -42.5 25.35)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6f450b50-907c-4359-97b4-5791c50641b4")
+	)
+	(fp_line
+		(start -42.5 -23)
+		(end 42.5 -23)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "16c5dbdd-c3c4-4b35-9e9f-ccd522304f93")
+	)
+	(fp_line
+		(start -42.5 17.8)
+		(end 42.5 17.8)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "c633c493-f771-40ab-9a5c-8b59043203ed")
+	)
+	(fp_line
+		(start -42.5 23)
+		(end 42.5 23)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "5b89a294-66a0-4691-883d-ce8708db9952")
+	)
+	(fp_line
+		(start 42.5 -17.8)
+		(end -42.5 -17.8)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "442460c9-7495-4038-be68-45c8964e1d3a")
+	)
+	(fp_rect
+		(start -42.75 -25.5)
+		(end 42.75 25.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "052d1ea9-8f52-41cd-8ef4-8ea542644a21")
+	)
+	(fp_text user "Contact surface"
+		(at 0 -24 0)
+		(layer "Dwgs.User")
+		(uuid "4eaf49cc-1fa1-4f1a-a033-f8bb5b68d56c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "Contact surface"
+		(at 0 24 0)
+		(layer "Dwgs.User")
+		(uuid "6fd6aace-9d7f-4b24-af0c-c1b39974b4b5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "Screw hole CL"
+		(at 0 -19 0)
+		(layer "Dwgs.User")
+		(uuid "73901c5d-39d8-4704-9b48-de6a6be81cf6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "Screw hole CL"
+		(at 0 19 0)
+		(layer "Dwgs.User")
+		(uuid "825aed9e-4b67-46aa-936b-1f24f4c56345")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+)
