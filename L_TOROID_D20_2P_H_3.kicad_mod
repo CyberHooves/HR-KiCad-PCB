@@ -1,0 +1,404 @@
+(footprint "L_TOROID_D20_2P_H_3"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -12 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "253cbcdc-3a7c-460f-b41a-4ed213f1f894")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "L_TOROID_D20_2P_H_3"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "b3425fb1-ae1e-4c3b-8ae5-56bca44ee366")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e4afd500-3d0d-4244-a544-0f49548ab969")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "37ed9323-fa0d-46de-a6ce-0176de3bd3c2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Horizontal toroidal indcutor with base flange and M3 mounting hole, one pin is offset by 33.7 degrees."
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cd7b94b9-a259-40d2-bac5-faecf7d3b1a8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -14.186433 2.733041)
+		(end -6.101702 9.152553)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "64c31db2-3c2e-4d87-82e3-7340a7c6909f")
+	)
+	(fp_line
+		(start -14.034334 -2.848067)
+		(end -6.101702 -9.152553)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "6c4e05b5-51fa-488f-83ac-82c644e8b017")
+	)
+	(fp_line
+		(start 1.486245 -10.899132)
+		(end 10.824163 -9.384572)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "f05fb332-64d8-49e2-be68-dad773482811")
+	)
+	(fp_line
+		(start 12.867337 -5.617742)
+		(end 10.505706 3.260391)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "0abf70f5-d2f6-453d-a413-07384f711ec2")
+	)
+	(fp_arc
+		(start -15.5 0)
+		(mid -15.112087 -1.601535)
+		(end -14.034334 -2.848067)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "db4317ea-0e8e-4858-b798-8160d70aece9")
+	)
+	(fp_arc
+		(start -14.186433 2.733041)
+		(mid -15.154562 1.516161)
+		(end -15.5 0)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "e8f684e0-63d5-41bd-bd61-1a38107e4924")
+	)
+	(fp_arc
+		(start -6.101702 -9.152553)
+		(mid -3.187626 -10.528012)
+		(end 0 -11)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "e0952c15-390a-4043-b7c9-a55d215e806f")
+	)
+	(fp_arc
+		(start 0 -11)
+		(mid 0.744832 -10.974754)
+		(end 1.486245 -10.899132)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "06b57e3f-f6af-4eb6-931d-820bb953852e")
+	)
+	(fp_arc
+		(start 0 11)
+		(mid -3.187626 10.528012)
+		(end -6.101702 9.152553)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "676b2173-4418-4fa8-9195-800fe7068271")
+	)
+	(fp_arc
+		(start 10.505706 3.260391)
+		(mid 6.524404 8.856193)
+		(end 0 11)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "2bac0134-2211-47e0-862d-d50a430b9f39")
+	)
+	(fp_arc
+		(start 10.824163 -9.384572)
+		(mid 12.395046 -8.306587)
+		(end 13 -6.5)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "415cd0b6-a7e0-4808-9280-b6d1c5dd65c6")
+	)
+	(fp_arc
+		(start 11.341641 -9.183282)
+		(mid 12.551953 -8.077194)
+		(end 13 -6.5)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "862d6fe2-d72e-4bed-95ed-2c9eadde0aee")
+	)
+	(fp_arc
+		(start 13 -6.5)
+		(mid 12.966649 -6.053912)
+		(end 12.867337 -5.617742)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "4537e57a-2508-467a-99a3-abdd7557e4cf")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 5 0)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "9a45ab8a-a2e1-4abd-90e7-0a287f597a37")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 10 0)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "cf31969c-08dd-47d1-a3d5-b9d0905cda9f")
+	)
+	(fp_line
+		(start -14.150484 -3.07212)
+		(end -6.240377 -9.360566)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "7db52cb5-fe90-4a5b-a1c2-b8f424aa18d3")
+	)
+	(fp_line
+		(start -6.240377 9.360566)
+		(end -14.150484 3.07212)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "d54f1d7e-7519-4762-8fd5-2c6b2c728901")
+	)
+	(fp_line
+		(start 2.286185 -11.015256)
+		(end 10.788241 -9.652963)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "1d5d55ac-d2e4-468a-ba68-3f6e77f7740e")
+	)
+	(fp_line
+		(start 10.853593 2.960071)
+		(end 13.152963 -5.711759)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "de503e14-f246-42c2-b66e-fe5baf74c309")
+	)
+	(fp_arc
+		(start -15.75 0)
+		(mid -15.32617 -1.731789)
+		(end -14.150484 -3.07212)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "a7bae7b7-61d9-4d29-8427-a4ba0d157416")
+	)
+	(fp_arc
+		(start -14.150484 3.07212)
+		(mid -15.32617 1.731789)
+		(end -15.75 0)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "6b12a14e-97a5-42fb-a488-644f1de0cd94")
+	)
+	(fp_arc
+		(start -6.240377 -9.360566)
+		(mid -3.260072 -10.767285)
+		(end 0 -11.25)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "f4d8e3ad-bd4f-4fd0-a5af-11dcc1d143f4")
+	)
+	(fp_arc
+		(start 0 -11.25)
+		(mid 1.149103 -11.19116)
+		(end 2.286185 -11.015256)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "1bd122e0-34b7-48ad-a942-e1da33bd9de0")
+	)
+	(fp_arc
+		(start 0 11.25)
+		(mid -3.260072 10.767285)
+		(end -6.240377 9.360566)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "e9d65aca-8607-4ae6-a60f-bc9f10cf8453")
+	)
+	(fp_arc
+		(start 10.788241 -9.652963)
+		(mid 12.561668 -8.50009)
+		(end 13.25 -6.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "b4546c3b-8bcb-4fe6-8ca4-8ed9cffaae45")
+	)
+	(fp_arc
+		(start 10.853593 2.960071)
+		(mid 6.828679 8.94045)
+		(end 0 11.25)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "61a3fc98-ba21-46fb-9927-f1cf5658f935")
+	)
+	(fp_arc
+		(start 13.25 -6.5)
+		(mid 13.22565 -6.102904)
+		(end 13.152963 -5.711759)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "08106380-53b5-4cbe-8143-039a6a6dbfa2")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "915e2039-a8aa-4748-8a51-3a76f39252d3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" np_thru_hole circle
+		(at 0 0)
+		(size 3.2 3.2)
+		(drill 3.2)
+		(layers "*.Mask")
+		(uuid "906f0ed6-1027-4f3f-ba7c-dbf4f31353a6")
+	)
+	(pad "1" thru_hole circle
+		(at -12 0)
+		(size 3.6 3.6)
+		(drill 2)
+		(layers "*.Cu" "*.Mask" "In1.Cu" "In2.Cu" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu"
+			"In7.Cu" "In8.Cu" "In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu"
+			"In15.Cu" "In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu"
+			"In22.Cu" "In23.Cu" "In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu" "In28.Cu"
+			"In29.Cu" "In30.Cu"
+		)
+		(remove_unused_layers no)
+		(uuid "c58c3992-8fb4-469d-9fc8-91497cdb9073")
+	)
+	(pad "2" thru_hole circle
+		(at 10 -6.5)
+		(size 3.6 3.6)
+		(drill 2)
+		(layers "*.Cu" "*.Mask" "In1.Cu" "In2.Cu" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu"
+			"In7.Cu" "In8.Cu" "In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu"
+			"In15.Cu" "In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu"
+			"In22.Cu" "In23.Cu" "In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu" "In28.Cu"
+			"In29.Cu" "In30.Cu"
+		)
+		(remove_unused_layers no)
+		(uuid "dcd5155f-dc83-4cb8-a106-8dd8ddc0dfcd")
+	)
+)
