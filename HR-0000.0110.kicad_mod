@@ -1,27 +1,13 @@
 (footprint "HR-0000.0110"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 0 -1.5 0)
 		(unlocked yes)
 		(layer "F.SilkS")
-		(hide yes)
 		(uuid "ad3ba1bb-dc2c-47b6-a2bd-ef96b75225b2")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.1)
-			)
-		)
-	)
-	(property "Value" "HR-0000.0110"
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "2085d699-06c9-48c2-92a0-8a8af90eeee6")
 		(effects
 			(font
 				(size 1 1)
@@ -29,12 +15,11 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 -1 0)
+	(property "Value" "HR-0000.0110"
+		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(hide yes)
-		(uuid "10e64e1d-169f-44b1-8f8c-3b97838b0928")
+		(uuid "2085d699-06c9-48c2-92a0-8a8af90eeee6")
 		(effects
 			(font
 				(size 1 1)
@@ -55,11 +40,10 @@
 			)
 		)
 	)
-	(property "Description" ""
-		(at 0 -1 0)
+	(property "Description" "HR PN 0000.0110, mounted solder-side down."
+		(at 0 1.5 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "09c58b9b-2057-4dc6-8529-0d4bd7a0c3cb")
 		(effects
 			(font
@@ -325,6 +309,18 @@
 		(layer "F.CrtYd")
 		(uuid "7d1fa9b3-acf5-49c0-9578-5d087f5df648")
 	)
+	(fp_text user "ISOLATION BARRIER"
+		(at 13.5 0 90)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "9bd65785-0812-4d21-9d97-1400996ce26b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
 	(pad "1" thru_hole roundrect
 		(at 25 6.35)
 		(size 1.6 1.6)
@@ -406,4 +402,5 @@
 		(remove_unused_layers no)
 		(uuid "481ec86d-15a3-4be4-a4fc-02447e471380")
 	)
+	(embedded_fonts no)
 )

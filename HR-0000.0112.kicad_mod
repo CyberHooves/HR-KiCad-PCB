@@ -1,17 +1,17 @@
 (footprint "HR-0000.0112"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
-		(at 7.5 -0.5 0)
+		(at 4.5 0 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "64e90d2e-738b-446c-bace-c26f7fc1093c")
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.1)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -20,19 +20,6 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "aff7998b-8233-4492-bce4-b66fde1b0bcc")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 7.5 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "b83d4b6f-4f7d-46fc-82db-88c570b813d8")
 		(effects
 			(font
 				(size 1 1)
@@ -54,10 +41,9 @@
 		)
 	)
 	(property "Description" "HR 0000.0112, mounted with component side facing up."
-		(at 7.5 0 0)
+		(at 7 4.5 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "c7561d7b-138f-443e-8a4d-28c539d73f33")
 		(effects
 			(font
@@ -335,6 +321,18 @@
 		(layer "F.CrtYd")
 		(uuid "b99d2cb2-aa89-452b-aa44-401bfcb06154")
 	)
+	(fp_text user "ISOLATION BARRIER"
+		(at 12 0 90)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "6f6830bf-a2c0-4419-916e-c7efad3f621e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
 	(fp_text user "${REFERENCE}"
 		(at 7.5 2.5 0)
 		(unlocked yes)
@@ -428,4 +426,5 @@
 		(remove_unused_layers no)
 		(uuid "4f194d8f-cff3-44d0-a0c6-f1c9df608441")
 	)
+	(embedded_fonts no)
 )
