@@ -1,7 +1,7 @@
-(footprint "TRANSFORMER-EF20-10P-H"
-	(version 20240108)
+(footprint "TRANSFORMER_EF20_10P_H"
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 0 -0.5 0)
@@ -15,24 +15,11 @@
 			)
 		)
 	)
-	(property "Value" "TRANSFORMER-EF20-10P-H"
+	(property "Value" "TRANSFORMER_EF20_10P_H"
 		(at 0 1 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "a91681f0-a9e4-4b6d-a4b5-e5f2c4443d7b")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "57291e2f-89f5-42f2-9d14-c70610c90848")
 		(effects
 			(font
 				(size 1 1)
@@ -74,7 +61,7 @@
 			(width 0.15)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.SilkS")
 		(uuid "14c14094-b208-4824-bd35-51909565bbc6")
 	)
@@ -85,7 +72,7 @@
 			(width 0.05)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "d2ced6e1-6b2e-4fdf-9ea5-753a3f4821ab")
 	)
@@ -182,4 +169,5 @@
 		(remove_unused_layers no)
 		(uuid "2d46b315-2b80-4a30-8f08-7762b177ac0f")
 	)
+	(embedded_fonts no)
 )

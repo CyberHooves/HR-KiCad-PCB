@@ -1,4 +1,4 @@
-(footprint "TRANSFORMER-RM10-B"
+(footprint "TRANSFORMER_RM10_B"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
