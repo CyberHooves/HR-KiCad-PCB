@@ -1,7 +1,7 @@
-(footprint "L-ROD-D10-P10"
-	(version 20240108)
+(footprint "L_ROD_D10_P10"
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 0 -6 0)
@@ -15,24 +15,11 @@
 			)
 		)
 	)
-	(property "Value" "L-ROD-D10-P10"
+	(property "Value" "L_ROD_D10_P10"
 		(at 0 -6 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "66cdb51b-e42a-4bd9-be90-478255cc8245")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "36cd528e-d33c-4613-b976-75ad93d4ecac")
 		(effects
 			(font
 				(size 1 1)
@@ -74,7 +61,7 @@
 			(width 0.15)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.SilkS")
 		(uuid "c8592065-304c-4d2b-a161-5ce1771dbc09")
 	)
@@ -159,4 +146,5 @@
 		(remove_unused_layers no)
 		(uuid "21d2a456-53b4-4517-8ab5-a97f0f898017")
 	)
+	(embedded_fonts no)
 )

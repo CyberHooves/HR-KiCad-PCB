@@ -1,7 +1,7 @@
-(footprint "DIODE-BRIDGE-GBU"
-	(version 20240108)
+(footprint "DIODE_BRIDGE_GBU"
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 0 4 0)
@@ -14,25 +14,13 @@
 			)
 		)
 	)
-	(property "Value" "DIODE-BRIDGE-GBU"
+	(property "Value" "DIODE_BRIDGE_GBU"
 		(at 0 -3 0)
 		(layer "F.Fab")
 		(uuid "203382ea-51c4-4596-af53-e58e22abb105")
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "bb35c723-9fb4-4d73-a86b-8d278f9f3ceb")
-		(effects
-			(font
-				(size 1.27 1.27)
 				(thickness 0.15)
 			)
 		)
@@ -169,7 +157,7 @@
 			(width 0.05)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "a9aeb5b9-dbd0-42a6-bc49-6447fc6aa388")
 	)
@@ -205,4 +193,5 @@
 		(remove_unused_layers no)
 		(uuid "55314dcf-6812-4d2a-b910-236774624115")
 	)
+	(embedded_fonts no)
 )

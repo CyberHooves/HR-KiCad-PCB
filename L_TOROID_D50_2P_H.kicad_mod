@@ -1,7 +1,7 @@
-(footprint "L-TOROID-D50-2P-H"
-	(version 20240108)
+(footprint "L_TOROID_D50_2P_H"
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 0 -0.5 0)
@@ -15,24 +15,11 @@
 			)
 		)
 	)
-	(property "Value" "L-TOROID-D50-2P-H"
+	(property "Value" "L_TOROID_D50_2P_H"
 		(at 0 1 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "8ef25969-96bb-4b5f-bb35-d4e576557c2c")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "25f1be06-8d04-4509-b7f0-67e2d7c0dd9a")
 		(effects
 			(font
 				(size 1 1)
@@ -74,7 +61,7 @@
 			(width 0.2)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.SilkS")
 		(uuid "f104639c-77ea-4d94-9251-a36099afbbe6")
 	)
@@ -85,7 +72,7 @@
 			(width 0.2)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.SilkS")
 		(uuid "fe01020a-a1fa-478b-bd9c-9e35fcb6d1a9")
 	)
@@ -96,7 +83,7 @@
 			(width 0.05)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "4971d3a8-ca98-45f5-8985-5d9f79f42d10")
 	)
@@ -128,4 +115,5 @@
 		(remove_unused_layers no)
 		(uuid "320b5043-4ccc-4dc8-9b47-33f09033729f")
 	)
+	(embedded_fonts no)
 )

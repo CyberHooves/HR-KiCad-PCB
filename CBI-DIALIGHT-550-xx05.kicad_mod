@@ -1,7 +1,7 @@
 (footprint "CBI-DIALIGHT-550-xx05"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 0 -3.81 0)
@@ -20,19 +20,6 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "f4c24561-5ce0-4d27-952f-df521a79022f")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "a893f9f9-43b7-4118-a204-6ce8908da0e4")
 		(effects
 			(font
 				(size 1 1)
@@ -155,7 +142,7 @@
 			(width 0.05)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "5ca3161d-1f9f-4268-a462-d139c3bf2625")
 	)
@@ -202,4 +189,5 @@
 		(remove_unused_layers no)
 		(uuid "7b122c0f-5464-4a78-9cd2-65703279bd7f")
 	)
+	(embedded_fonts no)
 )
