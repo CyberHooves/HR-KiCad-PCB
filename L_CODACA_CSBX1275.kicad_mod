@@ -1,0 +1,156 @@
+(footprint "L_CODACA_CSBX1275"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -7.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "fe07b31b-f0b9-46cc-8c9a-880e8424561e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Untitled"
+		(at 0 -1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "941bd832-5b5f-4032-8fe8-adf9c0964ef0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.codaca.com/Private/pdf/CSBX1275.pdf"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bf9c3126-4a4c-4996-a166-3230b070dc23")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Ferrite cored SMD inductor"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "28e716eb-765e-4bac-851b-829b255cb032")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -7 -6.5)
+		(end 7 -6.5)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "481c8548-083f-4e6d-b004-0c4cf4c61e5d")
+	)
+	(fp_line
+		(start -7 -3)
+		(end -7 -6.5)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "5f1ab12b-4b9a-4abb-ad10-ea5474795d1c")
+	)
+	(fp_line
+		(start -7 3)
+		(end -7 6.5)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "9c7bc68d-5945-42af-be78-f5c4518a31f0")
+	)
+	(fp_line
+		(start -7 6.5)
+		(end 7 6.5)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "51fe8c22-ed85-4677-a39c-5f1133b97ba5")
+	)
+	(fp_line
+		(start 7 -6.5)
+		(end 7 -3)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "01daf110-485f-461d-beb9-02aecbb752b8")
+	)
+	(fp_line
+		(start 7 6.5)
+		(end 7 3)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "4dc1ec0a-a462-4c0d-98cf-8cce8469d2d9")
+	)
+	(fp_rect
+		(start -7.75 -6.75)
+		(end 7.75 6.75)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "9c656109-67f3-4c06-8c2e-3d58ae08a8f1")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "098abfcf-4cd4-44c3-91a2-64d22887d85c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -5.25 0)
+		(size 4.5 5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1111111111)
+		(uuid "f1f0bb88-802b-4b0a-a027-b67fc6bfbde2")
+	)
+	(pad "2" smd roundrect
+		(at 5.25 0)
+		(size 4.5 5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1111111111)
+		(uuid "52196219-aaf4-4c65-a9d6-0a8b4b513d8e")
+	)
+	(embedded_fonts no)
+)

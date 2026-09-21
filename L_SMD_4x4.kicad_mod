@@ -7,7 +7,7 @@
 		(at 0 -3.25 0)
 		(unlocked yes)
 		(layer "F.SilkS")
-		(uuid "dfeff7e0-2b52-4b29-a004-68c5f787f98f")
+		(uuid "eeb66330-1100-4d0c-a3bd-9ec7a7424078")
 		(effects
 			(font
 				(size 1 1)
@@ -19,7 +19,7 @@
 		(at 0 3.25 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "37bc5d45-573d-4760-8260-6b5cae77d94b")
+		(uuid "221113ed-bb48-4aa5-9234-ebc5760d60ef")
 		(effects
 			(font
 				(size 1 1)
@@ -31,7 +31,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "ada18d60-0044-46cd-9468-e42805332c9e")
+		(uuid "400dab1d-a241-42b4-b0cd-2eb4696e1b60")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -42,7 +42,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "233800e0-fb2d-4da8-b8e8-cc437d16eb8b")
+		(uuid "be967870-4f45-4a06-90e1-01b33223a2b0")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -59,7 +59,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "035b3219-2bb8-4aa0-8ce0-36ecfa7bd4ff")
+		(uuid "95bc9a29-8c62-4a8b-be72-e09cb1a94a1a")
 	)
 	(fp_line
 		(start -0.5 2)
@@ -69,7 +69,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "97b1c4b5-9973-4d63-90ea-2cb2b6a811cf")
+		(uuid "1a86310b-f0be-498b-add3-1da61ec257f9")
 	)
 	(fp_rect
 		(start -2.75 -2.25)
@@ -80,13 +80,13 @@
 		)
 		(fill no)
 		(layer "F.CrtYd")
-		(uuid "d0156779-26fc-45e1-abd7-7caa1979dcbc")
+		(uuid "0c95ae48-8c70-4b84-ab91-fcf269580ff1")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 4.75 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "f4764d46-5fc1-4e90-85af-0181d4392768")
+		(uuid "ece39bcc-c66e-4725-9d22-179aa5964326")
 		(effects
 			(font
 				(size 1 1)
@@ -94,17 +94,19 @@
 			)
 		)
 	)
-	(pad "1" smd rect
+	(pad "1" smd roundrect
 		(at -1.75 0)
 		(size 1.5 4)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "b2497bfe-d35e-402c-8af8-ac11aa3e4d62")
+		(roundrect_rratio 0.1666666667)
+		(uuid "87373084-4f3f-45b9-931e-91f10897bbf9")
 	)
-	(pad "2" smd rect
+	(pad "2" smd roundrect
 		(at 1.75 0)
 		(size 1.5 4)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "8442bdd1-0d7b-4007-96fc-a66f85d4f466")
+		(roundrect_rratio 0.1666666667)
+		(uuid "988d1aca-1381-49d1-9088-3fc710f3e0c5")
 	)
 	(embedded_fonts no)
 )

@@ -8,7 +8,7 @@
 	(property "Reference" "REF**"
 		(at 0 -3.5 0)
 		(layer "F.SilkS")
-		(uuid "e7e622ab-835b-47ba-95e5-08ad552d74eb")
+		(uuid "27c1f848-976e-48d4-a782-a510e0e89159")
 		(effects
 			(font
 				(size 1 1)
@@ -19,7 +19,7 @@
 	(property "Value" "Fuse_Schurter_UMT-W"
 		(at 0 2.5 0)
 		(layer "F.Fab")
-		(uuid "82cfb0a2-bcff-4217-b025-a1c78b1ba723")
+		(uuid "c93ed8ad-b844-4bf8-89bf-64227cc85e73")
 		(effects
 			(font
 				(size 1 1)
@@ -32,7 +32,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "5cc6ca5e-0533-4c10-80ad-e94cdcd332fa")
+		(uuid "ac60f347-2dc7-417f-8293-1d599a9fd869")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -45,7 +45,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "73c7808c-7cef-4fa1-bdff-e8940c1eb23d")
+		(uuid "e92ca45e-bc4b-4803-b6d9-6e2881fe85e8")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -59,21 +59,21 @@
 		(start -4.55 -2.5)
 		(end 4.5 -2.5)
 		(stroke
-			(width 0.12)
+			(width 0.15)
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "bc2b0bb9-c470-44d8-9544-e5c05bd68de8")
+		(uuid "439d80e5-384d-4450-8bed-db3e735fb797")
 	)
 	(fp_line
 		(start -4.55 2.5)
 		(end 4.5 2.5)
 		(stroke
-			(width 0.12)
+			(width 0.15)
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "efa59121-be9d-42b5-b6ac-b8022fe393c5")
+		(uuid "4df565d3-97cf-4164-aefa-88f61bfa4bbd")
 	)
 	(fp_line
 		(start -9 -3)
@@ -83,7 +83,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "0afa3095-211f-4729-86e7-f1dab4e758ff")
+		(uuid "1eb5ac6e-a797-423c-be43-55207bcf5f06")
 	)
 	(fp_line
 		(start -9 3)
@@ -93,7 +93,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "2e6c50ab-69d4-41fd-8d99-d3238d5a67f8")
+		(uuid "e1b61e34-e89d-4ceb-82d2-caf6f3229431")
 	)
 	(fp_line
 		(start 9 -3)
@@ -103,7 +103,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "bca358de-ef41-498c-9c24-19233bf0a6f3")
+		(uuid "9e017b0f-04eb-4e24-8c75-59e9786b882c")
 	)
 	(fp_line
 		(start 9 3)
@@ -113,12 +113,12 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "89673957-ca47-457e-9a72-3ade4580e1fb")
+		(uuid "95bfb2a7-9d1e-4810-83bb-14277b8643ce")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 0 0)
 		(layer "F.Fab")
-		(uuid "1ca45bb9-aeb3-472d-b58b-dfde8fc9c0ce")
+		(uuid "e63dc9f9-17e2-4b8c-b340-9f55f207739c")
 		(effects
 			(font
 				(size 1 1)
@@ -131,14 +131,14 @@
 		(size 3.75 5.6)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.125)
-		(uuid "a42bad3a-8a13-40ec-8b02-550d71242182")
+		(uuid "7262a72f-0f82-4d54-8335-aa95bb0a4c55")
 	)
 	(pad "2" smd roundrect
 		(at 7 0)
 		(size 3.75 5.6)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.125)
-		(uuid "d8e23efd-2156-4079-921a-9d304f06cf47")
+		(uuid "5976f485-c80b-4f94-8b3a-01e1d2dfa64d")
 	)
 	(embedded_fonts no)
 	(model "${KICAD10_3DMODEL_DIR}/Fuse.3dshapes/Fuse_Schurter_UMT250.step"

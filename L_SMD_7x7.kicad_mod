@@ -7,7 +7,7 @@
 		(at 0 -5 0)
 		(unlocked yes)
 		(layer "F.SilkS")
-		(uuid "ba7055a3-b8ac-444e-94ad-4773b1c8c22d")
+		(uuid "8adb8e2d-6ad7-4d41-99a2-aad8533b892d")
 		(effects
 			(font
 				(size 1 1)
@@ -19,7 +19,7 @@
 		(at 0 5 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "d75a2495-50e5-4878-83b0-128cb32d98ea")
+		(uuid "e7a069d2-728c-408b-bf5a-a945a8a04142")
 		(effects
 			(font
 				(size 1 1)
@@ -31,7 +31,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "70145876-1b2a-4590-b1f2-f3671758377a")
+		(uuid "b60c9301-963e-4598-bd02-ef05ad16a6c7")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -42,7 +42,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "15d55650-b25c-43e4-8020-c8562957db6e")
+		(uuid "fcc66790-24dc-422c-a7f0-25d6b25bfa4d")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -59,7 +59,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "9dd7245d-7c7e-4a1b-88f5-43dd2e97a823")
+		(uuid "5bb48e49-6af6-474a-ad44-deae0cc8f710")
 	)
 	(fp_line
 		(start -1.25 3.5)
@@ -69,7 +69,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "f46eed18-565f-492f-a316-2885d7f1dcbe")
+		(uuid "a8eb8b7a-289d-4dab-9c54-6bffacd3ab51")
 	)
 	(fp_rect
 		(start -3.75 -3.75)
@@ -80,13 +80,13 @@
 		)
 		(fill no)
 		(layer "F.CrtYd")
-		(uuid "6ea403a4-23d4-4ede-97b0-02a07e83bb6f")
+		(uuid "ffe44ee1-9dfb-48a4-886c-2a7f0730bf54")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 6.5 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "b4dbcc9c-ed72-4385-8d6a-664a171a5790")
+		(uuid "dbd3de99-0728-4550-9b6e-33e738a976eb")
 		(effects
 			(font
 				(size 1 1)
@@ -94,17 +94,19 @@
 			)
 		)
 	)
-	(pad "1" smd rect
+	(pad "1" smd roundrect
 		(at -2.5 0)
 		(size 2 7)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "0c1737d3-9582-417d-a91d-f56943cb4ccf")
+		(roundrect_rratio 0.25)
+		(uuid "07327c57-2647-4e43-b866-6a6ba420e77b")
 	)
-	(pad "2" smd rect
+	(pad "2" smd roundrect
 		(at 2.5 0)
 		(size 2 7)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "c34b2245-d78b-43f5-9639-07a2c8a2e13a")
+		(roundrect_rratio 0.25)
+		(uuid "81e4ff1b-555f-4cfa-aee3-ce59971e331c")
 	)
 	(embedded_fonts no)
 )
